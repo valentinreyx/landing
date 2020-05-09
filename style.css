@@ -1,0 +1,145 @@
+/* Write some CSS below */
+body {
+  font-family: Passion One;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Passion One;
+}
+
+p {
+  color: #404042
+  opacity: .7;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.banner {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-bottom: 150px;
+  padding-left:150px;
+  padding-right: 150px;
+  padding-top: 10px;
+
+}
+
+.banner h1 {
+  color: white;
+  font-size: 70px;
+  padding: 10px;
+  text-align: center;
+
+
+}
+
+.banner p {
+  color: white;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.banner a {
+ margin: 25px;
+  }
+
+
+.button-blue {
+  background-color: #0F2B46;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 6px;
+  display: block;
+  text-decoration: none;
+  transition: .3s;
+  text-align: center;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+
+.cards {
+  padding-left: : 20px;
+  padding-right: 20px;
+
+
+  }
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: black;
+  background: cover;
+  padding: 25px 25px;
+  height: 200px;
+
+  
+}
+
+.footer p {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.button-red {
+  background-color: #E81747;
+  color: white;
+  padding: 20px 48px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: .3s;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.button-red:hover {
+  background-color: #E81747;
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
